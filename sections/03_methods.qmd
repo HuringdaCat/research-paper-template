@@ -7,7 +7,7 @@ Describe the datasets, inclusion/exclusion criteria, and preprocessing.
 Outline the pipeline and main steps.
 
 ### Models / Algorithms
-Describe models, training procedures, hyperparameter tuning, and evaluation.
+Describe models, training procedures, hyperparameter tuning, and evaluation. We followed established protocols [@smith2022example].
 
 ### Statistical Analysis
 Detail metrics, tests, corrections, and significance thresholds.

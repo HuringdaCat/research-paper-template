@@ -44,3 +44,38 @@ This is a research paper template built using Quarto, designed to streamline the
 -   **`quarto.yml`:** Modify this file to change project-wide options, output formats, and other Quarto settings.
 -   **`paper.qmd`:** Adjust the YAML front matter in this file to control document-specific settings, metadata, and citation styles.
 -   **`bibliography.bib`:** Manage your references using BibTeX. You can use tools like Zotero or Mendeley to export your citations to this format.
+
+## In-Text Citations
+
+Quarto uses Pandoc's citation syntax for in-text citations. The bibliography is defined in `quarto.yml` and references are stored in `bibliography.bib`.
+
+### Citation Syntax
+
+| Type | Syntax | Output Example |
+|------|--------|----------------|
+| Parenthetical | `[@smith2022example]` | (Smith and Doe 2022) |
+| Narrative | `@smith2022example` | Smith and Doe (2022) |
+| Multiple sources | `[@smith2022example; @jones2021]` | (Smith and Doe 2022; Jones 2021) |
+| With page number | `[@smith2022example, p. 5]` | (Smith and Doe 2022, 5) |
+| Suppress author | `[-@smith2022example]` | (2022) |
+
+### Examples
+
+**Parenthetical citation** (author and year in parentheses):
+```markdown
+Previous research has established foundational concepts in this field [@smith2022example].
+```
+
+**Narrative citation** (author as part of the sentence):
+```markdown
+As noted by @smith2022example, several questions remain unanswered.
+```
+
+### Custom Citation Styles
+
+To use a different citation style (e.g., APA, Chicago, IEEE), download a CSL file from the [Zotero Style Repository](https://www.zotero.org/styles) and add it to your `quarto.yml`:
+
+```yaml
+bibliography: bibliography.bib
+csl: apa.csl  # or any other CSL file
+```
