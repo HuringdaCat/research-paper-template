@@ -8,7 +8,7 @@ This is a research paper template built using Quarto, designed to streamline the
 .
 ├── bibliography.bib          # BibTeX file for managing citations
 ├── paper.qmd                 # Main Quarto manuscript file
-├── quarto.yml                # Quarto project configuration
+├── _quarto.yml               # Quarto project configuration
 ├── figures/                  # Directory for figures
 │   └── fig1_placeholder.png  # Placeholder image
 ├── sections/                 # Individual sections of the paper
@@ -37,17 +37,17 @@ This is a research paper template built using Quarto, designed to streamline the
     -   Update `bibliography.bib` with your references.
     -   Place your figures in the `figures/` directory.
     -   Add supplementary materials to the `supplements/` directory.
-3.  **Render the Document:** To render the paper to your desired format (e.g., PDF, HTML, DOCX), navigate to the project directory in your terminal and run: `bash     quarto render` This command will generate `paper.pdf`, `paper.docx`, and other output formats as configured in `quarto.yml` and `paper.qmd`.
+3.  **Render the Document:** To render the paper to your desired format (e.g., PDF, HTML, DOCX), navigate to the project directory in your terminal and run: `bash     quarto render` This command will generate `paper.pdf`, `paper.docx`, and other output formats as configured in `_quarto.yml` and `paper.qmd`.
 
 ## Customization
 
--   **`quarto.yml`:** Modify this file to change project-wide options, output formats, and other Quarto settings.
+-   **`_quarto.yml`:** Modify this file to change project-wide options, output formats, and other Quarto settings.
 -   **`paper.qmd`:** Adjust the YAML front matter in this file to control document-specific settings, metadata, and citation styles.
 -   **`bibliography.bib`:** Manage your references using BibTeX. You can use tools like Zotero or Mendeley to export your citations to this format.
 
 ## In-Text Citations
 
-Quarto uses Pandoc's citation syntax for in-text citations. The bibliography is defined in `quarto.yml` and references are stored in `bibliography.bib`.
+Quarto uses Pandoc's citation syntax for in-text citations. The bibliography is defined in `_quarto.yml` and references are stored in `bibliography.bib`.
 
 ### Citation Syntax
 
@@ -73,7 +73,7 @@ As noted by @smith2022example, several questions remain unanswered.
 
 ### Custom Citation Styles
 
-To use a different citation style (e.g., APA, Chicago, IEEE), download a CSL file from the [Zotero Style Repository](https://www.zotero.org/styles) and add it to your `quarto.yml`:
+To use a different citation style (e.g., APA, Chicago, IEEE), download a CSL file from the [Zotero Style Repository](https://www.zotero.org/styles) and add it to your `_quarto.yml`:
 
 ```yaml
 bibliography: bibliography.bib
