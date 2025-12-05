@@ -15,3 +15,4 @@ format:
 editor: source
 
 bibliography: bibliography.bib
+# csl: your-citation-style.csl  # Uncomment and specify a CSL file for custom citation formatting

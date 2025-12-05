@@ -1,10 +1,10 @@
 ## Introduction
 
 ### Background
-Introduce the scientific/clinical context and importance.
+Introduce the scientific/clinical context and importance. For example, previous research has established foundational concepts in this field [@smith2022example].
 
 ### Knowledge Gap
-What is unknown or unresolved in prior work.
+What is unknown or unresolved in prior work. As noted by @smith2022example, several questions remain unanswered.
 
 ### Objectives
 - Objective 1

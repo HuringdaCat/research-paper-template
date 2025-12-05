@@ -4,7 +4,7 @@
 Recap the key results in plain language.
 
 ### Comparison With Prior Work
-How do your findings agree or conflict with existing literature?
+How do your findings agree or conflict with existing literature? Our results are consistent with those reported by @smith2022example, who also observed similar patterns.
 
 ### Biological / Clinical / Practical Implications
 What do the results mean in practice?
