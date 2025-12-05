@@ -2,4 +2,4 @@
 
 You can include additional figures here, for example:
 
-![Supplementary placeholder](../figures/fig1_placeholder.png){#fig-supp1 width=70%}
+![Supplementary placeholder](figures/fig1_placeholder.png){#fig-supp1 width=70%}

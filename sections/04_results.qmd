@@ -15,7 +15,7 @@ Present your main results, linking to figures and tables.
 
 For example, as shown in @fig-umap, we observe clear separation between groups.
 
-![Example placeholder figure caption](../figures/fig1_placeholder.png){#fig-umap width=70%}
+![Example placeholder figure caption](figures/fig1_placeholder.png){#fig-umap width=70%}
 
 ### 3. Secondary Analyses
 Robustness checks, ablation studies, subgroup analyses.
