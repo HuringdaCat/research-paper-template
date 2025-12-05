@@ -1,0 +1,15 @@
+## Abstract
+
+**Background:**  
+Brief statement of the problem.
+
+**Methods:**  
+What you did, very succinctly.
+
+**Findings:**  
+Major results (1–3 key outcomes).
+
+**Interpretation:**  
+Why it matters.
+
+**Funding:** (optional)

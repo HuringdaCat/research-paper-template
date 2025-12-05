@@ -1,0 +1,26 @@
+
+---
+title: "Research Paper Template"
+author:
+  - name: "Your Name"
+format: 
+  pdf: default
+  docx: default
+---
+
+
+{{< include "sections/01_abstract.qmd" >}}
+
+{{< include "sections/02_introduction.qmd" >}}
+
+{{< include "sections/03_methods.qmd" >}}
+
+{{< include "sections/04_results.qmd" >}}
+
+{{< include "sections/05_discussion.qmd" >}}
+
+{{< include "sections/06_conclusion.qmd" >}}
+
+{{< include "sections/07_acknowledgements.qmd" >}}
+
+{{< include "sections/08_references.qmd" >}}

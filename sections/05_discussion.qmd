@@ -1,0 +1,21 @@
+## Discussion
+
+### Summary of Main Findings
+Recap the key results in plain language.
+
+### Comparison With Prior Work
+How do your findings agree or conflict with existing literature?
+
+### Biological / Clinical / Practical Implications
+What do the results mean in practice?
+
+### Strengths
+- Strength 1
+- Strength 2
+- Strength 3
+
+### Limitations
+Be transparent about limitations and potential biases.
+
+### Future Directions
+Follow-up studies, applications, or method improvements.

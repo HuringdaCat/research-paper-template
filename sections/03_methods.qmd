@@ -1,0 +1,16 @@
+## Methods
+
+### Study Cohorts / Data Sources
+Describe the datasets, inclusion/exclusion criteria, and preprocessing.
+
+### Experimental / Computational Workflow
+Outline the pipeline and main steps.
+
+### Models / Algorithms
+Describe models, training procedures, hyperparameter tuning, and evaluation.
+
+### Statistical Analysis
+Detail metrics, tests, corrections, and significance thresholds.
+
+### Ethics (if applicable)
+IRB approval, consent, and data governance.

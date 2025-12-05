@@ -1,0 +1,24 @@
+## Results
+
+### 1. Cohort / Dataset Overview
+High-level description of samples and data characteristics. Reference Table @tbl-cohort.
+
+```{#tbl-cohort}
+| Group        | N   | Key features |
+|--------------|-----|--------------|
+| Group A      | 100 | ...          |
+| Group B      | 120 | ...          |
+```
+
+### 2. Primary Findings
+Present your main results, linking to figures and tables.
+
+For example, as shown in @fig-umap, we observe clear separation between groups.
+
+![Example placeholder figure caption](../figures/fig1_placeholder.png){#fig-umap width=70%}
+
+### 3. Secondary Analyses
+Robustness checks, ablation studies, subgroup analyses.
+
+### 4. Sensitivity Analyses (optional)
+Alternative models, parameter sweeps, or additional tests.

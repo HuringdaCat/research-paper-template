@@ -1,0 +1,17 @@
+
+project:
+  title: "Research Paper Template"
+  output-dir: _output
+
+format:
+  pdf:
+    toc: true
+    number-sections: true
+    geometry: "margin=1in"
+  docx:
+    toc: true
+    number-sections: true
+
+editor: source
+
+bibliography: bibliography.bib

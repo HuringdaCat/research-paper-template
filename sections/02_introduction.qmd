@@ -1,0 +1,15 @@
+## Introduction
+
+### Background
+Introduce the scientific/clinical context and importance.
+
+### Knowledge Gap
+What is unknown or unresolved in prior work.
+
+### Objectives
+- Objective 1
+- Objective 2
+- Objective 3
+
+### Overview of the Paper
+Briefly describe how the rest of the paper is organized.
